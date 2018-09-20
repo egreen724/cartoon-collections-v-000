@@ -18,10 +18,8 @@ end
 
 def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  snacks.detect?(cheese_types) do |snacks|
-  if snacks == true
-    return snacks
-  else return nil 
+  snacks.detect? do |snack|
+    snack == cheese_types
   end 
-end 
+  
 end
