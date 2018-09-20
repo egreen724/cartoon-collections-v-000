@@ -22,7 +22,7 @@ def find_the_cheese(snacks)
     if snack == cheese_types[0] || snack == cheese_types[1] snack == cheese_types[2]
       return snack 
     else 
-      return nil 
+       nil 
   end 
 end 
 end
